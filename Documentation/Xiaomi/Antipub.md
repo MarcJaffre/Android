@@ -41,24 +41,24 @@ am force-stop com.teslacoilsw.launcher
 ## III. Analyse réseau
 ### A. Google Play Store
 ```
-android.clients.google.com
-connectivitycheck.gstatic.com
-gstatic.com
-play.fe.googleapis.com
-play.googleapis.com
-play.lh.googleusercontent.com
-playstoregatewayadapter-pa.googleapis.com
-prod-it.playstoregatewayadapter-pa.googleapis.com
-i.ytimg.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 gstatic.com
+0.0.0.0 play.fe.googleapis.com
+0.0.0.0 play.googleapis.com
+0.0.0.0 play.lh.googleusercontent.com
+0.0.0.0 playstoregatewayadapter-pa.googleapis.com
+0.0.0.0 prod-it.playstoregatewayadapter-pa.googleapis.com
+0.0.0.0 i.ytimg.com
 ```
 
 ### B. Services Google Play
 ```bash
-android.googleapis.com
-googleapis.com
-quake-pa.googleapis.com
-mtalk.google.com
-spot-pa.googleapis.com
+0.0.0.0 android.googleapis.com
+0.0.0.0 googleapis.com
+0.0.0.0 quake-pa.googleapis.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 spot-pa.googleapis.com
 ```
 
 
