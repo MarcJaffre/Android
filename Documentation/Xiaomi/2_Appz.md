@@ -36,3 +36,34 @@ adb reboot bootloader
 fastboot flash boot D:\Users\Marc\Downloads\magisk_patched-31100_iKffs.img
 fastboot reboot
 ```
+#### 5. Systemless Hosts
+Ouvrir Magisk > Paramètres > Fichier d'hôtes hors partition système
+
+#### 6. Autoriser le Shell en root
+Ouvrir Magisk > Super-Uilisateur > ajouter le `Shell`. 
+
+#### 7. Débogage Sans fil
+Aller dans les `paramètres` > `Paramètres supplémentaires` > `Options développeur` et cocher `Débogage Sans Fil` puis récupérer l'adresse.
+
+```
+adb -s 192.168.0.93:41819 shell
+su
+```
+#### 8. Hosts
+```bash
+nano /data/adb/modules/hosts/system/etc/hosts
+```
+
+```
+# Nova Launcher
+0.0.0.0 moloco.com
+0.0.0.0 xenoss.io
+0.0.0.0 branch.io
+0.0.0.0 instabridge.com
+```
+
+```bash
+clear;
+# Tuer le processus Nova Launcher
+am force-stop com.teslacoilsw.launcher
+```
