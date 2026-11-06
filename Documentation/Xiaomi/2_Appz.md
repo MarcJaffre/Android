@@ -46,25 +46,21 @@ Ouvrir Magisk > Super-Uilisateur > ajouter le `Shell`.
 Aller dans les `paramètres` > `Paramètres supplémentaires` > `Options développeur` et cocher `Débogage Sans Fil` puis récupérer l'adresse.
 
 ```
-adb -s 192.168.0.93:41819 shell
+adb connect 192.168.0.93:NOUVEAU_PORT
+adb shell
 su
 ```
 #### 8. Hosts
+L'application `PCAPdroid ` ou `RethinkDNS` permettent de relever les adresses utiliser des applications
 ```bash
 nano /data/adb/modules/hosts/system/etc/hosts
 ```
 
 ```
 # Nova Launcher
-0.0.0.0 moloco.com
-0.0.0.0 xenoss.io
-0.0.0.0 branch.io
-0.0.0.0 instabridge.com
-
-googleads.g.doubleclick.net
-play.googleapis.com
-172.217.113.4
-
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 logs.afs.vungle.com
 ```
 
 ```bash
