@@ -12,7 +12,7 @@ Le Redmi Note 10 Pro est un mobile sous architecture `Arm64`.
 ### B. Télécharger les fichiers [PixelOS](https://pixelos.net/download/sweet)
 #### 1. Redmi Note 10 Pro
 ```
-Menu indispensable pour installer la ROM.
+# Menu indispensable pour installer la ROM.
 https://download.pixelos.net/seventeen/sweet/recovery/recovery-sweet_20261030_2119.img
 
 # Noyau pour le démarrage du téléphone.
@@ -36,13 +36,13 @@ adb reboot bootloader
 Le téléphone est en Fastboot et permet l'installation de l'image Recovery.
 ```
 fastboot devices
-fastboot flash boot     "S:\Xiaomi Redmi Note 10 Pro\PixelOS\boot-sweet_20261030_2119.img"
-fastboot flash dtbo     "S:\Xiaomi Redmi Note 10 Pro\PixelOS\dtbo-sweet_20261030_2119.img
-fastboot flash recovery "S:\Xiaomi Redmi Note 10 Pro\PixelOS\recovery-sweet_20261030_2119.img"
+fastboot flash boot     "C:\PixelOS\boot-sweet_20261030_2119.img"
+fastboot flash dtbo     "C:\dtbo-sweet_20261030_2119.img
+fastboot flash recovery "C:\recovery-sweet_20261030_2119.img"
 fastboot reboot recovery
 ```
 
-#### E.Nettoyage
+#### E. Nettoyage (Application)
 Aller dans le menu `Factory Reset` > `Format Data / Factory Reset` > `Valider`.
 
 #### F. Injection OS
