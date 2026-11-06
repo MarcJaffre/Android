@@ -58,11 +58,13 @@ nano /data/adb/modules/hosts/system/etc/hosts
 
 ```
 # Nova Launcher
-0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 api.novalauncher.com
+0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 logs.afs.vungle.com
 0.0.0.0 ncmrsa-ag-in-f2.1e100.net
 0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
 ```
 
 ```bash
