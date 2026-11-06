@@ -60,6 +60,11 @@ nano /data/adb/modules/hosts/system/etc/hosts
 0.0.0.0 xenoss.io
 0.0.0.0 branch.io
 0.0.0.0 instabridge.com
+
+googleads.g.doubleclick.net
+play.googleapis.com
+172.217.113.4
+
 ```
 
 ```bash
