@@ -1,10 +1,13 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# <p align='center'> Installation d'application </p>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## I. Téléphone
 ### A. Mode développeur
 #### 1. Débloquer le menu
 Aller dans les `paramètres` > `A propos du téléphone` puis cliquer 7 fois sur le numéro de la `Build` pour débloquer le menu.
 #### 2. Mode débogage USB
 Aller dans les `paramètres` > `Paramètres supplémentaires` > `Options développeur` et cocher `Débogage USB` et brancher votre téléphone sur le PC.
-
-### B. Xiamoi
+### B. Télécharger des applications 
 #### 1. Rooter le téléphone
 Télécharger l'APK puis renommer en `.zip` et utiliser le mode Sideload pour l'injecter.
 ```
@@ -17,3 +20,19 @@ https://github.com/MindTheGapps
 https://nikgapps.com/
 ```
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## II. Root, Google Apps
+### A. Root
+#### 1. Extraire Boot.img
+Extraire le fichier `boot.img` de l'image système (PixelOS_sweet-17.0-20261030-2119.zip). 
+
+Puis il faut transférer le fichier dans le Téléphone.
+
+#### 3. Magisk
+La copier dans le téléphone puis lancer Magisk puis sélectionner le fichier.
+#### 4. Flash
+Transférer le fichier sur le PC.
+```bash
+adb reboot bootloader
+fastboot flash init_boot magisk_patched_XXXXX.img
+```
