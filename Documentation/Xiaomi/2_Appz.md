@@ -34,7 +34,7 @@ La copier dans le téléphone puis lancer Magisk puis sélectionner le fichier.
 Transférer le fichier sur le PC.
 ```bash
 adb reboot bootloader
-fastboot flash init_boot magisk_patched_XXXXX.img
+# fastboot flash init_boot magisk_patched_XXXXX.img
+fastboot flash boot D:\Users\Marc\Downloads\magisk_patched-31100_iKffs.img
 fastboot reboot
 ```
-D:\Users\Marc\Downloads\magisk_patched-31100_iKffs.img
