@@ -1,6 +1,6 @@
--------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 # <p align='center'> Installer une ROM custom </p>
--------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 ## I. Préparation
 ### A. Mode développeur
 #### 1. Débloquer le menu
@@ -23,10 +23,13 @@ Lancer le logiciel `miflash_unlock.exe` puis suivez les étapes.
 
 <br /> <br />
 
--------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Installer une Rom
 ### A. Présentation
-### B. Redmi Note 10 Pro/Max
+### B. Redmi Note 10 Pro
+#### 0. Présentation
+Le Redmi Note 10 Pro est un mobile sous architecture `Arm64`.
+
 #### 1. [PixelOS](https://pixelos.net/download/sweet)
 ```
 Menu indispensable pour installer la ROM.
@@ -48,7 +51,7 @@ adb devices
 adb reboot bootloader
 ```
 
-#### 2: Installation du Bootloader
+#### 3. Installation du Bootloader
 Le téléphone est en Fastboot et permet l'installation de l'image Recovery.
 ```
 fastboot devices
@@ -58,10 +61,10 @@ fastboot flash recovery "S:\Xiaomi Redmi Note 10 Pro\PixelOS\recovery-sweet_2026
 fastboot reboot recovery
 ```
 
-#### 3. Nettoyage
+#### 4. Nettoyage
 Aller dans le menu `Factory Reset` > `Format Data / Factory Reset` > `Valider`.
 
-#### 4: Injection OS
+#### 5. Injection OS
 Aller dans le menu `Apply Update` > `Apply From ADB` puis taper la commande pour envoyer l'OS. 
 
 ```
@@ -70,28 +73,30 @@ adb sideload "S:\Xiaomi Redmi Note 10 Pro\PixelOS\PixelOS_sweet-17.0-20261030-21
 
 Vérifier sur le téléphone : `Install Completed with status 0`.
 
+Redémarrer le téléphone normalement.
+
+Il doit démarrer
+
 <br /> <br />
 
--------------------------------------------------------------
-
-
-#### 5. Developpe Mode
+-------------------------------------------------------------------------------------------------------------------------------------------------
+## III. 
+### A. Mode développeur
+#### 1. Débloquer le menu
 Aller dans les `paramètres` > `A propos du téléphone` puis cliquer 7 fois sur le numéro de la `Build` pour débloquer le menu.
-
-#### 6. Mode débogage USB
+#### 2. Mode débogage USB
 Aller dans les `paramètres` > `Paramètres supplémentaires` > `Options développeur` et cocher `Débogage USB` et brancher votre téléphone sur le PC.
 
-#### 7. Télécharger Appz
+### B. Xiamoi
+#### 1. Rooter le téléphone
+Télécharger l'APK puis renommer en `.zip` et utiliser le mode Sideload pour l'injecter.
 ```
-https://github.com/MindTheGapps/16.0.0-arm64/releases/latest
+https://github.com/topjohnwu/Magisk
 ```
-
-#### 8. Installation Appz (Google apps)
-Le téléphone doit être en mode `Recovery` pour installer des applications. (Architecture Arm64) 
-
-Toute apk doit être renommer en .zip puis utiliser la commande suivante pour l'installation.
-
+#### 2. Google Appz
+Il existe plusieurs package pour déployer les Google Appz. N'utiliser qu'un package. (La fonction Format Data / Factory Reset permet de nettoyer les apps)
 ```
-adb sideload "C:\MonAppz.zip"
+https://github.com/MindTheGapps
+https://nikgapps.com/
 ```
 
