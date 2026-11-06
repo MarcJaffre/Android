@@ -1,12 +1,16 @@
-
 -------------------------------------------------------------------------------------------------------------------------------------------------
-## II. Installer une Rom
+# <p align='center'> Guide d'installation de PixelOS </p>
+-------------------------------------------------------------------------------------------------------------------------------------------------
+## I. Déploiement de la ROM
 ### A. Présentation
-### B. Redmi Note 10 Pro
-#### 0. Présentation
+#### 1. Prérequis
+Un téléphone avec le mode Développeur et le mode `Débuggage USB` est actif. Puis les pilotes du PC.
+#### 2. Architecture
 Le Redmi Note 10 Pro est un mobile sous architecture `Arm64`.
 
-#### 1. [PixelOS](https://pixelos.net/download/sweet)
+
+### B. Télécharger les fichiers [PixelOS](https://pixelos.net/download/sweet)
+#### 1. Redmi Note 10 Pro
 ```
 Menu indispensable pour installer la ROM.
 https://download.pixelos.net/seventeen/sweet/recovery/recovery-sweet_20261030_2119.img
@@ -20,14 +24,15 @@ https://download.pixelos.net/seventeen/sweet/recovery/dtbo-sweet_20261030_2119.i
 # Le système d'exploitation Android 17 complet.
 https://download.pixelos.net/seventeen/sweet/PixelOS_sweet-17.0-20261030-2119.zip
 ```
-#### 2. Bootloader
+
+### C. Démarrer en Bootloader
 Allumer le téléphone et connecter celui-ci au PC, puis taper les commandes suivantes.
 ```
 adb devices
 adb reboot bootloader
 ```
 
-#### 3. Installation du Bootloader
+#### D. Installation du Bootloader
 Le téléphone est en Fastboot et permet l'installation de l'image Recovery.
 ```
 fastboot devices
@@ -37,10 +42,10 @@ fastboot flash recovery "S:\Xiaomi Redmi Note 10 Pro\PixelOS\recovery-sweet_2026
 fastboot reboot recovery
 ```
 
-#### 4. Nettoyage
+#### E.Nettoyage
 Aller dans le menu `Factory Reset` > `Format Data / Factory Reset` > `Valider`.
 
-#### 5. Injection OS
+#### F. Injection OS
 Aller dans le menu `Apply Update` > `Apply From ADB` puis taper la commande pour envoyer l'OS. 
 
 ```
@@ -50,7 +55,3 @@ adb sideload "S:\Xiaomi Redmi Note 10 Pro\PixelOS\PixelOS_sweet-17.0-20261030-21
 Vérifier sur le téléphone : `Install Completed with status 0`.
 
 Puis sélectionner `Reboot System Now` pour redémarrer le téléphone.
-
-Il doit démarrer
-
-<br /> <br />
