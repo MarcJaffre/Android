@@ -24,9 +24,7 @@ https://nikgapps.com/
 ## II. Root, Google Apps
 ### A. Root
 #### 1. Extraire Boot.img
-Extraire le fichier `boot.img` de l'image système (PixelOS_sweet-17.0-20261030-2119.zip). 
-
-Puis il faut transférer le fichier dans le Téléphone.
+Extraire le fichier `boot.img` de l'image systèmen puis il faut transférer le fichier dans le Téléphone. (PixelOS_sweet-17.0-20261030-2119.zip)
 
 #### 3. Magisk
 La copier dans le téléphone puis lancer Magisk puis sélectionner le fichier.
