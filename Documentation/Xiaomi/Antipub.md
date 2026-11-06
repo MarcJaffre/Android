@@ -17,6 +17,7 @@ adb connect 192.168.0.93:XXXXX
 adb -s      192.168.0.93:XXXXX shell
 adb shell
 su
+bash
 ```
 
 ### B. Hosts
