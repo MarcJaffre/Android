@@ -38,18 +38,33 @@ am force-stop com.teslacoilsw.launcher
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-## III. Liste de Blocage
-### A. Nova Launcher
-```bash
-0.0.0.0 api.novalauncher.com
-0.0.0.0 logs.ads.vungle.com
-0.0.0.0 ncmrsa-ag-in-f2.1e100.net
+## III. Analyse réseau
+### A. Google Play Store
+```
+android.clients.google.com
+connectivitycheck.gstatic.com
+gstatic.com
+play.fe.googleapis.com
+play.googleapis.com
+play.lh.googleusercontent.com
+playstoregatewayadapter-pa.googleapis.com
+prod-it.playstoregatewayadapter-pa.googleapis.com
+i.ytimg.com
 ```
 
-### B. Global
+
+### A. Global
 ```
 0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
+```
+
+
+### X. Nova Launcher
+```bash
+0.0.0.0 api.novalauncher.com
+0.0.0.0 logs.ads.vungle.com
+0.0.0.0 ncmrsa-ag-in-f2.1e100.net
 ```
