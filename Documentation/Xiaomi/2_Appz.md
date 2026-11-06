@@ -70,6 +70,10 @@ nano /data/adb/modules/hosts/system/etc/hosts
 
 ```bash
 clear;
+
+# Vider DNS
+ndc resolver clearnetdns wlan0
+
 # Tuer le processus Nova Launcher
 am force-stop com.teslacoilsw.launcher
 ```
