@@ -52,6 +52,15 @@ prod-it.playstoregatewayadapter-pa.googleapis.com
 i.ytimg.com
 ```
 
+### B. Services Google Play
+```bash
+android.googleapis.com
+googleapis.com
+quake-pa.googleapis.com
+mtalk.google.com
+spot-pa.googleapis.com
+```
+
 
 ### A. Global
 ```
@@ -64,7 +73,16 @@ i.ytimg.com
 
 ### X. Nova Launcher
 ```bash
+0.0.0.0 fonts.googleapis.com
+0.0.0.0 web.facebook.com
 0.0.0.0 api.novalauncher.com
 0.0.0.0 logs.ads.vungle.com
 0.0.0.0 ncmrsa-ag-in-f2.1e100.net
+0.0.0.0 pubsads.g.doubleclick.com
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 static.doubleclick.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 s1.2mdn.net
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 googletagservices.com
 ```
