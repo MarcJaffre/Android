@@ -21,7 +21,7 @@ Connecter le téléphone et lancer le programme `driver_install_64.exe` pour ins
 #### 2. Unlock
 Lancer le logiciel `miflash_unlock.exe` puis suivez les étapes.
 
-<br />
+<br /> <br />
 
 -------------------------------------------------------------
 ## II. Installer une Rom
@@ -62,10 +62,18 @@ fastboot reboot recovery
 Aller dans le menu `Factory Reset` > `Format Data / Factory Reset` > `Valider`.
 
 #### 4: Injection OS
-Aller dans le menu `Apply Update` > `Apply From ADB` puis taper la commande d'injection de fichier.
+Aller dans le menu `Apply Update` > `Apply From ADB` puis taper la commande pour envoyer l'OS. 
+
 ```
 adb sideload "S:\Xiaomi Redmi Note 10 Pro\PixelOS\PixelOS_sweet-17.0-20261030-2119.zip"
 ```
+
+Vérifier sur le téléphone : `Install Completed with status 0`.
+
+<br /> <br />
+
+-------------------------------------------------------------
+
 
 #### 5. Developpe Mode
 Aller dans les `paramètres` > `A propos du téléphone` puis cliquer 7 fois sur le numéro de la `Build` pour débloquer le menu.
