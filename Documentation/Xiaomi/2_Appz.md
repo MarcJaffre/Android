@@ -35,4 +35,6 @@ Transférer le fichier sur le PC.
 ```bash
 adb reboot bootloader
 fastboot flash init_boot magisk_patched_XXXXX.img
+fastboot reboot
 ```
+D:\Users\Marc\Downloads\magisk_patched-31100_iKffs.img
