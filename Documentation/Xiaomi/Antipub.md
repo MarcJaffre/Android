@@ -41,48 +41,78 @@ am force-stop com.teslacoilsw.launcher
 ## III. Analyse réseau
 ### A. Google Play Store
 ```
-0.0.0.0 android.clients.google.com
-0.0.0.0 connectivitycheck.gstatic.com
-0.0.0.0 gstatic.com
-0.0.0.0 play.fe.googleapis.com
-0.0.0.0 play.googleapis.com
-0.0.0.0 play.lh.googleusercontent.com
-0.0.0.0 playstoregatewayadapter-pa.googleapis.com
-0.0.0.0 prod-it.playstoregatewayadapter-pa.googleapis.com
-0.0.0.0 i.ytimg.com
+android.clients.google.com
+connectivitycheck.gstatic.com
+gstatic.com
+play.fe.googleapis.com
+play.googleapis.com
+play.lh.googleusercontent.com
+playstoregatewayadapter-pa.googleapis.com
+prod-it.playstoregatewayadapter-pa.googleapis.com
+i.ytimg.com
 ```
 
 ### B. Services Google Play
 ```bash
-0.0.0.0 android.googleapis.com
-0.0.0.0 googleapis.com
-0.0.0.0 quake-pa.googleapis.com
-0.0.0.0 mtalk.google.com
-0.0.0.0 spot-pa.googleapis.com
+android.googleapis.com
+googleapis.com
+quake-pa.googleapis.com
+mtalk.google.com
+spot-pa.googleapis.com
 ```
 
 
 ### A. Global
 ```
-0.0.0.0 firebaselogging.googleapis.com
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 pagead2.googleadservices.com
-0.0.0.0 pagead2.googlesyndication.com
+firebaselogging.googleapis.com
+googleads.g.doubleclick.net
+pagead2.googleadservices.com
+pagead2.googlesyndication.com
 ```
-
 
 ### X. Nova Launcher
 ```bash
-0.0.0.0 fonts.googleapis.com
-0.0.0.0 web.facebook.com
-0.0.0.0 api.novalauncher.com
-0.0.0.0 logs.ads.vungle.com
+fonts.googleapis.com
+web.facebook.com
+api.novalauncher.com
+logs.ads.vungle.com
+ncmrsa-ag-in-f2.1e100.net
+pubsads.g.doubleclick.com
+redirector.gvt1.com
+static.doubleclick.com
+s0.2mdn.net
+s1.2mdn.net
+tpc.googlesyndication.com
+googletagservices.com
+```
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+## IV. Blocage
+
+```
+# --- BLOCAGE GLOBAL & NOKIA LAUNCHER ---
+0.0.0.0 ://googleapis.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ://googleadservices.com
+0.0.0.0 ://googlesyndication.com
+0.0.0.0 ://googleapis.com
+0.0.0.0 ://facebook.com
+0.0.0.0 ://novalauncher.com
+0.0.0.0 ://vungle.com
 0.0.0.0 ncmrsa-ag-in-f2.1e100.net
-0.0.0.0 pubsads.g.doubleclick.com
-0.0.0.0 redirector.gvt1.com
-0.0.0.0 static.doubleclick.com
+0.0.0.0 ://doubleclick.com
+0.0.0.0 ://gvt1.com
+0.0.0.0 ://doubleclick.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s1.2mdn.net
-0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 ://googlesyndication.com
 0.0.0.0 googletagservices.com
+
+# --- OBSERVATION (NON BLOQUÉS POUR PRÉSERVER LE SYSTÈME) ---
+# ://google.com
+# ://gstatic.com
+# gstatic.com
+# ://googleapis.com
+# ://google.com
 ```
