@@ -8,8 +8,6 @@ Aller dans les `paramètres` > `A propos du téléphone` puis cliquer 7 fois sur
 #### 2. Mode débogage USB
 Aller dans les `paramètres` > `Paramètres supplémentaires` > `Options développeur` et cocher `Débogage USB` et brancher votre téléphone sur le PC.
 
-
-
 ### B. Xiamoi
 #### 1. Redmi Note 10 Pro/Max
 Télécharger et extraire le logiciel [mi Flash Unlock](https://miuirom.xiaomi.com/rom/u1106245679/7.6.727.43/miflash_unlock_en_7.6.727.43.zip)
@@ -73,7 +71,7 @@ adb sideload "S:\Xiaomi Redmi Note 10 Pro\PixelOS\PixelOS_sweet-17.0-20261030-21
 
 Vérifier sur le téléphone : `Install Completed with status 0`.
 
-Redémarrer le téléphone normalement.
+Puis sélectionner `Reboot System Now` pour redémarrer le téléphone.
 
 Il doit démarrer
 
