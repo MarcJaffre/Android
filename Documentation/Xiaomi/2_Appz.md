@@ -47,6 +47,7 @@ Aller dans les `paramètres` > `Paramètres supplémentaires` > `Options dévelo
 
 ```
 adb connect 192.168.0.93:NOUVEAU_PORT
+adb -s 192.168.0.93:40937 shell
 adb shell
 su
 ```
