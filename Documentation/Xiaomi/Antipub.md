@@ -71,6 +71,11 @@ pagead2.googleadservices.com
 pagead2.googlesyndication.com
 ```
 
+### X. Gestionnaire de fichier
+```
+firebaselogging-pa.googleapis.com
+```
+
 ### X. Nova Launcher
 ```bash
 fonts.googleapis.com
@@ -89,6 +94,7 @@ s1.2mdn.net
 tpc.googlesyndication.com
 googletagservices.com
 ```
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -126,5 +132,4 @@ googletagservices.com
 0.0.0.0 ://gvt1.com
 0.0.0.0 ://gvt1-cn.com
 0.0.0.0 gvt1.com
-
 ```
