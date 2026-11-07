@@ -115,8 +115,9 @@ img.rareprob.com
 ```bash
 
 cat > /data/adb/modules/hosts/system/etc/hosts << 'EOF'
+cat > /data/adb/modules/hosts/system/etc/hosts << 'EOF'
 # ========================================================
-# Carte Réseau par defaut
+# Carte Réseau par défaut
 # ========================================================
 127.0.0.1       localhost
 ::1             ip6-localhost
@@ -124,12 +125,13 @@ cat > /data/adb/modules/hosts/system/etc/hosts << 'EOF'
 # ========================================================
 # APPAREIL GLOBAL & INFRASTRUCTURES PUBLICITAIRES
 # ========================================================
-0.0.0.0 firebaselogging.googleapis.com
-0.0.0.0 firebaselogging-pa.googleapis.com
-0.0.0.0 firebaseinstallations.googleapis.com
-0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 ://googleapis.com
+0.0.0.0 ://googleapis.com
+0.0.0.0 ://googleapis.com
+0.0.0.0 ://crashlytics.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 doubleclick.net
 0.0.0.0 ://doubleclick.com
 0.0.0.0 ://doubleclick.com
 0.0.0.0 ://googleadservices.com
@@ -139,16 +141,16 @@ cat > /data/adb/modules/hosts/system/etc/hosts << 'EOF'
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s1.2mdn.net
 0.0.0.0 ncmrsa-ag-in-f2.1e100.net
-0.0.0.0 marketingplatform.google.com
-0.0.0.0 fundingchoicesmessages.google.com
+0.0.0.0 ://google.com
+0.0.0.0 ://google.com
 
 # ========================================================
 # TRAQUEURS TIERS & RÉGIES MOBILES LÉGACY
 # ========================================================
-0.0.0.0 web.facebook.com
-0.0.0.0 graph.facebook.com
-0.0.0.0 ://vungle.com
+0.0.0.0 ://facebook.com
+0.0.0.0 ://facebook.com
 0.0.0.0 vungle.com
+0.0.0.0 ://vungle.com
 0.0.0.0 ://moloco.com
 0.0.0.0 molocoads.com
 0.0.0.0 report.appmetrica.yandex.net
@@ -156,18 +158,24 @@ cat > /data/adb/modules/hosts/system/etc/hosts << 'EOF'
 # ========================================================
 # CONFIGURATIONS SPÉCIFIQUES DES APPLICATIONS
 # ========================================================
-# --- Nova Launcher ---
+# --- Nova Launcher & Dépendances ---
 0.0.0.0 api.novalauncher.co
+0.0.0.0 ://googleusercontent.com
 
 # --- ZX File Manager ---
-0.0.0.0 img.rareprob.com
+0.0.0.0 ://rareprob.com
 
 # --- Redirections & Polices ---
-0.0.0.0 fonts.googleapis.com
+0.0.0.0 ://googleapis.com
 0.0.0.0 ://gstatic.com
 0.0.0.0 ://gvt1.com
 0.0.0.0 ://gvt1-cn.com
 0.0.0.0 gvt1.com
+
+# ========================================================
+# Fin du fichier
+# ========================================================
+
 EOF
 
 ```
