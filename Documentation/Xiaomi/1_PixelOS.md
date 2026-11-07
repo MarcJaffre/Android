@@ -66,3 +66,5 @@ Paramètres > Système > Mode Navigation
 
 ### B. Appuyer de manière prolongée sur le bouton d'alimentation
 Paramètres > Système > Gestes
+
+### C. 
