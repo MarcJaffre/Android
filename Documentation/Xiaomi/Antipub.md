@@ -53,7 +53,22 @@ prod-it.playstoregatewayadapter-pa.googleapis.com
 i.ytimg.com
 ```
 
-### B. Services Google Play
+### X. Gestionnaire de fichier
+```
+firebaselogging-pa.googleapis.com
+report.appmetrica.yandex.net
+```
+
+
+### X. Global
+```
+firebaselogging.googleapis.com
+googleads.g.doubleclick.net
+pagead2.googleadservices.com
+pagead2.googlesyndication.com
+```
+
+### X. Services Google Play
 ```bash
 android.googleapis.com
 googleapis.com
@@ -62,20 +77,6 @@ mtalk.google.com
 spot-pa.googleapis.com
 ```
 
-
-### A. Global
-```
-firebaselogging.googleapis.com
-googleads.g.doubleclick.net
-pagead2.googleadservices.com
-pagead2.googlesyndication.com
-```
-
-### X. Gestionnaire de fichier
-```
-firebaselogging-pa.googleapis.com
-report.appmetrica.yandex.net
-```
 
 ### X. Nova Launcher
 ```bash
@@ -97,39 +98,64 @@ googletagservices.com
 ```
 
 
+### X. ZX File Manager
+```
+firebase-settings.crashlytics.com
+firebaseinstallations.googleapis.com
+graph.facebook.com
+fundingchoicesmessages.google.com
+marketingplatform.google.com
+img.rareprob.com
+```
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ## IV. Blocage
 
 ```
-# --- [BLOCAGE GLOBAL & NOVA LAUNCHER] ---
-0.0.0.0 ://googleapis.com
+# ========================================================
+# APPAREIL GLOBAL & INFRASTRUCTURES PUBLICITAIRES
+# ========================================================
+0.0.0.0 firebaselogging.googleapis.com
+0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 ://doubleclick.com
+0.0.0.0 ://doubleclick.com
 0.0.0.0 ://googleadservices.com
 0.0.0.0 ://googlesyndication.com
 0.0.0.0 ://googlesyndication.com
 0.0.0.0 googletagservices.com
-0.0.0.0 ://doubleclick.com
-0.0.0.0 ://doubleclick.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s1.2mdn.net
 0.0.0.0 ncmrsa-ag-in-f2.1e100.net
-0.0.0.0 report.appmetrica.yandex.net
+0.0.0.0 marketingplatform.google.com
+0.0.0.0 fundingchoicesmessages.google.com
 
-# --- [TRAQUEURS & REGIES TIERS] ---
-0.0.0.0 ://facebook.com
-0.0.0.0 ://facebook.com
+# ========================================================
+# TRAQUEURS TIERS & RÉGIES MOBILES LÉGACY
+# ========================================================
+0.0.0.0 web.facebook.com
+0.0.0.0 graph.facebook.com
 0.0.0.0 ://vungle.com
 0.0.0.0 vungle.com
 0.0.0.0 ://moloco.com
 0.0.0.0 molocoads.com
+0.0.0.0 report.appmetrica.yandex.net
 
-# --- [NOVA LAUNCHER SPECIFIQUE] ---
+# ========================================================
+# CONFIGURATIONS SPÉCIFIQUES DES APPLICATIONS
+# ========================================================
+# --- Nova Launcher ---
 0.0.0.0 api.novalauncher.co
 
-# --- [REDIRECTIONS & POLICES GOOGLE] ---
-0.0.0.0 ://googleapis.com
+# --- ZX File Manager ---
+0.0.0.0 img.rareprob.com
+
+# --- Redirections & Polices ---
+0.0.0.0 fonts.googleapis.com
 0.0.0.0 ://gstatic.com
 0.0.0.0 ://gvt1.com
 0.0.0.0 ://gvt1-cn.com
