@@ -55,3 +55,14 @@ adb sideload "S:\Xiaomi Redmi Note 10 Pro\PixelOS\PixelOS_sweet-17.0-20261030-21
 Vérifier sur le téléphone : `Install Completed with status 0`.
 
 Puis sélectionner `Reboot System Now` pour redémarrer le téléphone.
+
+
+<br />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+## II. Configuration du Système
+### A. Navigation à trois boutons
+Paramètres > Système > Mode Navigation 
+
+### B. Appuyer de manière prolongée sur le bouton d'alimentation
+Paramètres > Système > Gestes
