@@ -95,28 +95,36 @@ googletagservices.com
 ## IV. Blocage
 
 ```
-# --- BLOCAGE GLOBAL & NOKIA LAUNCHER ---
+# --- [BLOCAGE GLOBAL & NOVA LAUNCHER] ---
 0.0.0.0 ://googleapis.com
 0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 ://googleadservices.com
 0.0.0.0 ://googlesyndication.com
-0.0.0.0 ://googleapis.com
-0.0.0.0 ://facebook.com
-0.0.0.0 ://novalauncher.com
-0.0.0.0 ://vungle.com
-0.0.0.0 ncmrsa-ag-in-f2.1e100.net
+0.0.0.0 ://googlesyndication.com
+0.0.0.0 googletagservices.com
 0.0.0.0 ://doubleclick.com
-0.0.0.0 ://gvt1.com
 0.0.0.0 ://doubleclick.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s1.2mdn.net
-0.0.0.0 ://googlesyndication.com
-0.0.0.0 googletagservices.com
+0.0.0.0 ncmrsa-ag-in-f2.1e100.net
 
-# --- OBSERVATION (NON BLOQUÉS POUR PRÉSERVER LE SYSTÈME) ---
-# ://google.com
-# ://gstatic.com
-# gstatic.com
-# ://googleapis.com
-# ://google.com
+# --- [TRAQUEURS & REGIES TIERS] ---
+0.0.0.0 ://facebook.com
+0.0.0.0 ://facebook.com
+0.0.0.0 ://vungle.com
+0.0.0.0 vungle.com
+0.0.0.0 ://moloco.com
+0.0.0.0 molocoads.com
+
+# --- [NOVA LAUNCHER SPECIFIQUE] ---
+0.0.0.0 api.novalauncher.co
+
+# --- [REDIRECTIONS & POLICES GOOGLE] ---
+0.0.0.0 ://googleapis.com
+0.0.0.0 ://gstatic.com
+0.0.0.0 ://gvt1.com
+0.0.0.0 ://gvt1-cn.com
+0.0.0.0 gvt1.com
+
 ```
