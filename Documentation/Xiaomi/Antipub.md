@@ -42,9 +42,11 @@ am force-stop com.teslacoilsw.launcher
 ## III. Analyse réseau
 ### X. Aurora Store
 ```
-rr3--sn-hgn7m7y.gvt1.com ==> 172.217.133.8 ==> mrs08s09-in-f8.1e100.net
+rr3--sn-hgn7m7y.gvt1.com   => 172.217.133.8  => mrs08s09-in-f8.1e100.net
+rr5-sn-sn-hgn7mee.gvt1.com => 173.194.164.42 => mrs08s11-in-f10.1e100.net
 ```
-### A. Google Play Store
+
+### X. Google Play Store
 ```
 android.clients.google.com
 connectivitycheck.gstatic.com
