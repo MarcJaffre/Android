@@ -74,6 +74,7 @@ pagead2.googlesyndication.com
 ### X. Gestionnaire de fichier
 ```
 firebaselogging-pa.googleapis.com
+report.appmetrica.yandex.net
 ```
 
 ### X. Nova Launcher
@@ -114,6 +115,7 @@ googletagservices.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s1.2mdn.net
 0.0.0.0 ncmrsa-ag-in-f2.1e100.net
+0.0.0.0 report.appmetrica.yandex.net
 
 # --- [TRAQUEURS & REGIES TIERS] ---
 0.0.0.0 ://facebook.com
