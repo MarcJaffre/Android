@@ -42,8 +42,14 @@ am force-stop com.teslacoilsw.launcher
 ## III. Analyse réseau
 ### X. Aurora Store
 ```
+auroraoss.com
+play-apps-features-googleusercontent.com
+play-lh.googleusercontent.com
+rr1--sn-ojhgn5-5g.gvt1.com => 173.194.164.65 => ncmrsa-ar-in-f1.1e100.net
+rr2--sn-hgn7yn7e.gvt1.com  => 74.125.11.135  => mrs09s01-in-f7.1e100.net
 rr3--sn-hgn7m7y.gvt1.com   => 172.217.133.8  => mrs08s09-in-f8.1e100.net
-rr5-sn-sn-hgn7mee.gvt1.com => 173.194.164.42 => mrs08s11-in-f10.1e100.net
+rr4--sn-hgn7me7.gvt1.com   => 172.217.133.41 => mrs08s10-in-f9.1e100.net
+rr5--sn-hgn7mee.gvt1.com   => 173.194.164.42 => mrs08s11-in-f10.1e100.net
 ```
 
 ### X. Google Play Store
