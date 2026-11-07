@@ -75,11 +75,14 @@ pagead2.googlesyndication.com
 ```bash
 fonts.googleapis.com
 web.facebook.com
-api.novalauncher.com
+api.novalauncher.co
+lh3.googleusercontent.com
 logs.ads.vungle.com
 ncmrsa-ag-in-f2.1e100.net
 pubsads.g.doubleclick.com
 redirector.gvt1.com
+redirector.gvt1-cn.com
+sdkapi.dsp-api.moloco.com
 static.doubleclick.com
 s0.2mdn.net
 s1.2mdn.net
