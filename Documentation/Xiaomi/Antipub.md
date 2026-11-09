@@ -125,8 +125,7 @@ img.rareprob.com
 ## IV. Blocage
 
 ```bash
-
-cat > /data/adb/modules/hosts/system/etc/hosts << 'EOF'
+clear;
 cat > /data/adb/modules/hosts/system/etc/hosts << 'EOF'
 # ========================================================
 # Carte Réseau par défaut
