@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ## I. Analyse
 ### A. Application
-L'application `PCAPdroid ` ou `RethinkDNS` permettent de relever les adresses utiliser des applications
+L'application `PCAPdroid` ou `RethinkDNS` permettent de relever les adresses utiliser des applications
 
 <br />
 
